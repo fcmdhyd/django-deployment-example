@@ -5,10 +5,11 @@
     <title></title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">  </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <ul class="navbar-nav mr-auto">
-          <li><a class="nav-link" href="{% url 'index' %}">BRAND</a></li>
+          <li><a class="navbar-brand" href="{% url 'index' %}">
+            <img src="https://media-exp1.licdn.com/dms/image/C5635AQEKdv6R1gsEXw/profile-framedphoto-shrink_200_200/0/1609740864013?e=1613840400&v=beta&t=cEsLmhuHM4x6ixwscfJcOy6dV0steMzWzPEBO9GifdY" width="30" height="30" class="d-inline-block align-top" alt="">HYD</a></li>
           <li><a class="nav-link" href="{% url 'admin:index' %}">Admin</a></li>
           <li><a class="nav-link" href="{% url 'basic_app:other'%}">Other</a></li>
         </ul>
